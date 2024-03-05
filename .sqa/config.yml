@@ -12,7 +12,7 @@ sqa_criteria:
     repos:
       this_repo:
         commands:
-        - fair-eva.py -ID 12b76f8e-d10e-4c5d-a113-4855f6bc3435 -R epos -B https://www.ics-c.epos-eu.org/api/v1
+        - fair-eva.py -ID 12b76f8e-d10e-4c5d-a113-4855f6bc3435 -R epos -B https://www.ics-c.epos-eu.org/api/v1/
           --tool_endpoint http://localhost:9090/v1.0/rda/rda_all
-        container: qc.fair_gamy-lilac-hedgehog
+        container: qc.fair_gummy-lilac-dalmatian
 timeout: 5400
