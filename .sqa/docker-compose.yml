@@ -1,5 +1,5 @@
 services:
-  qc.fair_gummy-lilac-dalmatian:
+  qc.fair_flimsy-smalt-guppy:
     command: sleep 6000000
     image: eoscsynergy/sqaaas-fair_eva:2.0.0-alpha5
     volumes:
