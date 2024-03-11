@@ -13,7 +13,7 @@ sqa_criteria:
       this_repo:
         commands:
         - fair-eva.py --id 12b76f8e-d10e-4c5d-a113-4855f6bc3435 --plugin epos --repository
-          https://www.ics-c.epos-eu.org/api/v1/ --api-endpoint http://localhost:9090/v1.0/rda/rda_all
+          https://www.ics-c.epos-eu.org/api/v1 --api-endpoint http://localhost:9090/v1.0/rda/rda_all
           --json
-        container: qc.fair_woozy-chocolate-tarantula
+        container: qc.fair_scummy-gold-zonkey
 timeout: 5400
